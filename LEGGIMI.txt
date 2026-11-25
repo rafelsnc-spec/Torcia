@@ -1,0 +1,13 @@
+TORCIA - app Android (pulsante verde = accendi, rosso = spegni, in basso)
+
+OPZIONE A - Android Studio
+1. Apri Android Studio > File > Open > seleziona questa cartella.
+2. Attendi la sincronizzazione Gradle (accetta eventuali download).
+3. Build > Build APK(s). L'APK si trova in app/build/outputs/apk/debug/app-debug.apk
+4. Copialo sul telefono e aprilo (abilita "Installa app da fonti sconosciute").
+
+OPZIONE B - GitHub (senza installare nulla)
+1. Crea un repository su github.com e carica tutto il contenuto di questa cartella
+   (compresa la cartella nascosta .github).
+2. Vai nella scheda Actions > "Build APK" > attendi il completamento (circa 3 minuti).
+3. Apri l'esecuzione e scarica l'artefatto "Torcia-apk": contiene app-debug.apk.
